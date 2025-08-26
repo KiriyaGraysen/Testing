@@ -3,7 +3,7 @@
   
   <head>
     
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
     <title>Testing</title>
     
   </head>
@@ -35,6 +35,81 @@
       <h3>Recent post</h3>
       <ul>
         <li>My first post</li>
+        <li>My second post</li>
+      </ul>
+    </aside>
+    
+    <!-- audio, video, iframe tags -->
+    
+    <audio controls>
+      <source src="music/araw-araw-benben.mp3" type="audio/mpeg">
+      Your browser does not support audio tag.
+    </audio>
+    
+    <video controls width="320">
+      <source src="video/VID_20250323_145844_111.mp4" type="video/mp4">
+      Your browser does not support video tag.
+    </video>
+    
+    <iframe width="400" height="250" src="https://www.youtube.com/embed/eEFVxI9lqjU" frameborder="0" allowfullscreen></iframe>
+    
+    <!-- this are for forms -->
+    
+    <form>
+      <fieldset>
+        <legend>Sign Up</legend>
+
+        <label for="username">Username:</label>
+        <input tabindex="0" type="text" id="username" required><br><br>
+
+        <label for="email">Email:</label>
+        <input tabindex="1" type="email" id="email" required><br><br>
+
+        <button type="submit">Register</button>
+      </fieldset>
+    </form>
+    
+    <!-- table section -->
+    
+    <table border="1">
+      <caption>Student Grades</caption>
+
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Subject</th>
+          <th>Grade</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Ana</td>
+          <td>Math</td>
+          <td>A</td>
+        </tr>
+        <tr>
+          <td>John</td>
+          <td>Science</td>
+          <td>B+</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <td colspan="3">End of Report</td>
+        </tr>
+      </tfoot>
+    </table>
+    
+    <!-- footer tag -->
+    
+    <footer>
+      <p>&copy; 2025 My Blog</p>
+    </footer>
+  </body>
+  
+          </html>        <li>My first post</li>
         <li>My second post</li>
       </ul>
     </aside>
